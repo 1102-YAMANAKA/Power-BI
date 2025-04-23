@@ -8,11 +8,11 @@
         margin: 0;
         padding: 0;
         height: 100%;
-        overflow: hidden; /* スクロールバー非表示 */
+        overflow: hidden; /* スクロールを防ぐ */
       }
       iframe {
         width: 100vw;
-        height: calc(100vh - 4px); /* 画面からはみ出さないよう微調整 */
+        height: calc(100vh - 4px); /* 微調整でスクロールバー防止 */
         border: none;
         display: block;
       }
@@ -26,3 +26,4 @@
     </iframe>
   </body>
 </html>
+
